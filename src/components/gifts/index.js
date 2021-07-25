@@ -7,7 +7,7 @@ const Gifts = (props) => {
       <section className="section-honeyfund" style={{ backgroundImage: 'url("assets/Vancouver.jpg")' }}>
         <div className="container"> 
           <p className="subtitle">We're Honeymooning in Vancouver, BC</p>
-          <a className="button is-medium" href="https://paypal.me/pools/c/8BuvtNBCrb" target="_blank">Chip In</a>
+          <a className="button is-medium" href="https://paypal.me/pools/c/8BuvtNBCrb" target="_blank" rel="noopener noreferrer">Chip In</a>
         </div>
       </section>
 
@@ -19,7 +19,7 @@ const Gifts = (props) => {
               <p className="subtitle lp-title">Help us start our record collection<br/>Bring us your favorite LP</p>
             </div>
             <div className="column">
-              <img className="lp" src="/assets/vices.jpg" />
+              <img className="lp" src="/assets/vices.jpg" alt="Vices by Premium Blend" />
             </div>
           </div>          
         </div>
