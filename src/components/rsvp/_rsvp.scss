@@ -1,0 +1,9 @@
+.section-rsvp {
+  background: $blue-dark;
+  text-align: center;
+  padding: 6em 0;
+  .title, .subtitle {
+    color: $white;
+    margin-bottom: 1em;;
+  }
+}

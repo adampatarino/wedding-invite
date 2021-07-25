@@ -1,0 +1,28 @@
+.section-honeyfund{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25% 30%;
+  height: 50vh;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  .subtitle {
+    font-size: 1.8em;
+    color: $white;
+  }
+}
+
+.section-lp {
+  
+  .container {position: relative;}
+  .lp-title{
+    text-align: center;
+  }
+  .lp {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;;
+  }
+}

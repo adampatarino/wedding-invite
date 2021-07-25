@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;700&display=swap');
+
+$family-sans-serif: "Spartan", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$weight-light: 200;
+
+$blue: #4A5568;
+$blue-dark: #293240;
+$green: #7DB362;
+
+$white: #F9FAFB;
+$grey-lightest: #E1E3E6;
+$grey-light: #BABCBF;
+$grey: #797C80;
+
+$primary: $blue;
+$success: $green;
+
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/helpers/spacing.sass";
+@import "bulma/sass/layout/section.sass";
+@import "bulma/sass/layout/hero.sass";
+@import "bulma/sass/components/media.sass";
+@import "bulma/sass/grid/columns.sass";
+@import "bulma/sass/form/shared.sass";
+@import "bulma/sass/form/input-textarea.sass";
+@import "bulma/sass/elements/box.sass";
+@import "bulma/sass/elements/button.sass";
+@import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/title.sass";
+@import "bulma/sass/elements/image.sass";
+
+a {
+  text-decoration: underline;
+  &.button {
+    text-decoration: none;
+    padding-bottom: 4px;
+    svg {
+      margin-top: -6px;
+    }
+    }
+}
+
+
+
+@import "src/components/hero/_hero.scss";
+@import "src/components/when/_when.scss";
+@import "src/components/location/_location.scss";
+@import "src/components/gifts/_gifts.scss";
+@import "src/components/rsvp/_rsvp.scss";
+

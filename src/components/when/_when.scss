@@ -1,0 +1,15 @@
+.section-when {
+  height: 25vh;
+  
+  .container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    .title, .subtitle {
+      flex: 0 0 100%;
+    } 
+  }
+  
+}

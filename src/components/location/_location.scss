@@ -1,0 +1,36 @@
+.section-location {
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75% 0;
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+  }
+
+  .subtitle {
+    margin-top: -3rem;
+    font-size: 1.5rem;
+    text-align: right;
+
+    @include from($desktop) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.section-location, .section-directions {
+  .column { position: relative; }
+  .button {
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    vertical-align: bottom;
+    
+    
+  }
+}
