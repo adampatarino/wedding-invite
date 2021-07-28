@@ -10,6 +10,12 @@
     .title, .subtitle {
       flex: 0 0 100%;
     } 
+    .title {
+      font-size: 1.5rem;
+      @include from($tablet) {
+        font-size: 2rem;
+      }
+    }
   }
   
 }

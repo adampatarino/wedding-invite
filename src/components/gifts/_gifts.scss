@@ -23,6 +23,9 @@
   .lp {
     display: block;
     margin: 0 auto;
-    max-width: 300px;;
+    max-width: 250px;
+    @include from($desktop) {
+      max-width: 300px;
+    }
   }
 }
